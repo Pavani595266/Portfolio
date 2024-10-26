@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Reset and global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f3f5f8;
+            color: #080808;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: #346393;
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Profile Image */
+        .profile-image {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .profile-image img {
+            border-radius: 50%;
+            width: 300px;
+            height: 450px;
+            border: 5px solid #385e8a;
+            box-shadow: 0px 0px 10px rgba(103, 94, 94, 0.2);
+        }
+
+        /* Section Title */
+        .section-title {
+            font-size: 2em;
+            color: #144173;
+            text-align: center;
+            margin: 40px 0 20px;
+        }
+
+        /* About Section */
+        .about {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            color: #3f3e3e;
+            max-width: 800px;
+            margin: auto;
+        }
+        .skills{
+            text-align: center;
+            margin-bottom:20px;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            display: flex;
+            justify-content:center;
+            gap:10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .skill-item {
+            background-color: #fff;
+            border: 2px solid #0a131e;
+            border-radius: 1px;
+            padding: 5px;
+            font-weight: bold;
+            color: #4a90e2;
+            transition: 0.3s;
+        }
+
+        .skill-item:hover {
+            background-color: #4a90e2;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Projects Section */
+        .proj{
+            display: inline-flex;
+            margin-left: 30px;
+        }
+        .proj 
+        {
+            margin-left: 50px;
+        }
+        .projects {
+            text-align: center;
+            margin-bottom:10px;
+            
+        }
+        .projects-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            width: 45%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+            border-color: #4a90e2;
+        }
+
+        .project h3 {
+            font-size: 1.5em;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #666;
+        }
+
+        /* Education Section */
+        .education {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .education-item {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .education-item:hover {
+            transform: scale(1.05);
+            border-color: #4a90e2;
+        }
+
+        .education h3 {
+            font-size: 1.2em;
+            color: #4a90e2;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 30px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .contact a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>PAVANI RONGALI</h1>
+        <p>SOFTWARE DEVELOPER</p>
+
+    </header>
+
+    <!-- Profile Image -->
+    <div class="profile-image">
+        <img src="mypic.jpg" alt="Profile Picture">
+    </div>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <section class="about">
+            <h2 class="section-title">ABOUT ME</h2>
+            <p>I'm a web developer with a passion for creating stunning, responsive, and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I continuously strive to improve my skills and build projects that make an impact.</p>
+        </section>
+        <!-- Education Section -->
+        <section class="education">
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-item">
+                <h3>BTech in Electronics and Communication Engineering</h3>
+                <p>Anil Neerukonda Institute of Technology and Sciences, Graduated in 2024</p>
+            </div>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2 class="section-title">SKILLS</h2>
+            <div> 
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Data Structures and Algorithms</div>
+                <div class="skill-item">Java Programming</div>
+                <div class="skill-item">Python Programming</div>
+            </div>
+            
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="proj">
+            <div class="project" style="margin-left: 30px;">
+                <h3>Real-time Object Detection for Visually Impaired people with voice feedback using Raspberry pi</h3>
+                <p>Helps blind people to detect objects easily and audio will be hear through any audio devices</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="project" style="margin-left: 30px;">
+                <h3>Automatic Plant Watering System using Blynk IOT</h3>
+                <p>Waters plant automatically when the moisture levels of soil decreases</p>
+            </div>
+        </div>
+        </section>
+
+        
+            <!-- <div class="education-item">
+                <h3>Certification in Web Development</h3>
+                <p>ABC Institute, Completed in 2021</p>
+            </div> -->
+        </section>
+
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Let's collaborate! Feel free to <a href="mailto:rongalipavani333@gmail.com">email me</a>.</p>
+    </section>
+
+</body>
+</html>
+
+
